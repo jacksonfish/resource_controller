@@ -69,7 +69,6 @@ Gem::Specification.new do |s|
      "lib/urligence.rb",
      "rails/init.rb",
      "test/Gemfile",
-     "test/Gemfile.lock",
      "test/Rakefile",
      "test/app/controllers/accounts_controller.rb",
      "test/app/controllers/application_controller.rb",
