@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "makandra_resource_controller"
+  s.name = "jacksonfish_resource_controller"
   s.version = "0.8.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Golick", "Brian Quinn", "Derek Kastner", "Sean Schofield", "Henning Koch"]
   s.date = "2012-06-13"
   s.description = ""
-  s.email = "github@makandra.com"
+  s.email = "john@jacksonfish.com"
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc",
@@ -49,7 +49,7 @@ Gem::Specification.new do |s|
      "generators/scaffold_resource/templates/view_new.haml",
      "generators/scaffold_resource/templates/view_show.erb",
      "generators/scaffold_resource/templates/view_show.haml",
-     "lib/makandra_resource_controller.rb",
+     "lib/jacksonfish_resource_controller.rb",
      "lib/resource_controller.rb",
      "lib/resource_controller/accessors.rb",
      "lib/resource_controller/action_options.rb",
@@ -69,7 +69,6 @@ Gem::Specification.new do |s|
      "lib/urligence.rb",
      "rails/init.rb",
      "test/Gemfile",
-     "test/Gemfile.lock",
      "test/Rakefile",
      "test/app/controllers/accounts_controller.rb",
      "test/app/controllers/application_controller.rb",
@@ -268,7 +267,7 @@ Gem::Specification.new do |s|
      "test/vendor/plugins/dynamic_form/test/dynamic_form_test.rb",
      "test/vendor/plugins/dynamic_form/test/test_helper.rb"
   ]
-  s.homepage = "http://github.com/makandra/resource_controller"
+  s.homepage = "http://github.com/jacksonfish/resource_controller"
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.3.9.4"
